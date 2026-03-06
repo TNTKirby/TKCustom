@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/weapons/w_gladius/w_gladius_large"
+	"$translucent" 1
+	$vertexcolor 1
+}

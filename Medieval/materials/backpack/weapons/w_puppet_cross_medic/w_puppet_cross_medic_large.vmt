@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/weapons/w_puppet_cross_medic/w_puppet_cross_medic_large"
+	"$translucent" 1
+	$vertexcolor 1
+}

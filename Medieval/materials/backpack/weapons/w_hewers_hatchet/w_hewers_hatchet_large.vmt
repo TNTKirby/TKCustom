@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/weapons/w_hewers_hatchet/w_hewers_hatchet_large"
+	"$translucent" 1
+	"$vertexcolor" 1
+}

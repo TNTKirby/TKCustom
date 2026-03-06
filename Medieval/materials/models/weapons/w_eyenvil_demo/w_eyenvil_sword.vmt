@@ -1,0 +1,43 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models\weapons\w_eyenvil_demo/w_eyenvil_sword"
+
+	"$phong" "1"
+	"$phongexponent" "5"
+	"$phongboost" "10"	
+//	"$lightwarptexture" "models/lightwarps/weapon_lightwarp"
+	"$lightwarptexture" "models\weapons\c_items/c_ambassador_lightwarp"
+	"$phongfresnelranges"	"[.25 .5 1]"
+//	"$phongwarptexture"  "models\weapons\c_items/c_ambassador_phongwarp"
+	"$basemapalphaphongmask" "1"
+
+	"$rimlight" "1"
+	"$rimlightexponent" "10"	
+	"$rimlightboost" "1"
+
+	"$glowcolor" "1"
+
+	// Cloaking
+	"$cloakPassEnabled" "1"
+
+	"Proxies"
+	{
+		"invis"
+		{
+		}
+		"ModelGlowColor"
+		{
+			"resultVar" "$glowcolor"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$glowcolor"
+			"resultVar" "$selfillumtint"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$glowcolor"
+			"resultVar" "$color2"
+		}
+	}
+}

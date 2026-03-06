@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/weapons/w_flintlock_medieval_update/w_flintlock_medieval_update_large"
+	"$translucent" 1
+	$vertexcolor 1
+}

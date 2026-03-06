@@ -1,0 +1,45 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models\weapons\w_foulword/c_foulword_01"
+
+	"$phong" "1"
+	"$phongexponent" "5"
+	"$phongboost" "1"	
+	"$lightwarptexture" "models\weapons\c_items/c_ambassador_lightwarp"
+//	"$lightwarptexture" "models/lightwarps_bucket/weapon_lightwarp"
+	"$phongfresnelranges"	"[.25 .5 1]"
+//	"$phongwarptexture"  "models\weapons\c_items/c_ambassador_phongwarp"
+	"$basemapalphaphongmask" "1"
+
+
+	"$rimlight" "1"
+	"$rimlightexponent" "10"	
+	"$rimlightboost" ".65"
+
+
+	"$glowcolor" "1"
+
+	// Cloaking
+	"$cloakPassEnabled" "1"
+	"Proxies"
+	{
+		"invis"
+		{
+		}
+		"ModelGlowColor"
+		{
+			"resultVar" "$glowcolor"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$glowcolor"
+			"resultVar" "$selfillumtint"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$glowcolor"
+			"resultVar" "$color2"
+		}
+	}
+}
+

@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/weapons/w_dhakhan/w_dhakhan_large"
+	"$translucent" 1
+	"$vertexcolor" 1
+}

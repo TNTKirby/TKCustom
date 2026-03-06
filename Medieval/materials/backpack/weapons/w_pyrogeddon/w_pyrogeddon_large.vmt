@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/weapons/w_pyrogeddon/w_pyrogeddon_large"
+	"$translucent" 1
+	"$vertexcolor" 1
+}

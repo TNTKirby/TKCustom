@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/weapons/w_wizard_wand_spy/w_wizard_wand_spy_large"
+	"$translucent" 1
+	$vertexcolor 1
+}

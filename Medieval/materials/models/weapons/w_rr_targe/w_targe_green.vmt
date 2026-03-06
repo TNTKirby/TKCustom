@@ -1,0 +1,10 @@
+"Patch"
+{
+	include "materials/models/weapons/w_rr_targe/w_targe_red.vmt"
+	
+	"insert"
+	{
+		"$baseTexture" "models\weapons\w_rr_targe\w_targe_green"
+	}
+
+}

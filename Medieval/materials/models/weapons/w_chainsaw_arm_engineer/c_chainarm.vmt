@@ -1,0 +1,48 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models/weapons/w_chainsaw_arm_engineer/c_chainarm"
+	"$bumpmap"	"models/weapons/w_chainsaw_arm_engineer/c_chainarm_normal"
+	"$bumpmapalphaphongmask" "1"
+
+	"$phong" "1"
+	"$phongexponent" "10"
+	"$phongboost" "5"	
+//	"$lightwarptexture" "models\lightwarps\weapon_lightwarp"
+//	"$lightwarptexture" "models\lightwarps_bucket\weapon_lightwarp"
+	"$lightwarptexture" "models\weapons\c_items\c_ambassador_lightwarp"
+
+	"$phongfresnelranges"	"[.25 .5 1]"
+
+	"$basephongexponent" "25"
+	"$basephongboost" "5"
+
+	"$rimlight" "1"						
+	"$rimlightexponent" "50"				
+	"$rimlightboost" ".5"								// Boost for ambient cube component of rim lighting
+
+	"$glowcolor" "1"
+
+	// Cloaking
+	"$cloakPassEnabled" "1"
+
+	"Proxies"
+	{
+		"invis"
+		{
+		}
+		"ModelGlowColor"
+		{
+			"resultVar" "$glowcolor"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$glowcolor"
+			"resultVar" "$selfillumtint"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$glowcolor"
+			"resultVar" "$color2"
+		}
+	}
+}

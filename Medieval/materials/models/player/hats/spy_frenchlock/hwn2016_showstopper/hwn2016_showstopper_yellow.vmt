@@ -1,0 +1,11 @@
+"Patch"
+{
+	include "materials/models/player/hats/spy_frenchlock/hwn2016_showstopper/hwn2016_showstopper.vmt"
+	
+	insert
+	{
+		"$baseTexture" "models/player/hats/spy_frenchlock/hwn2016_showstopper/hwn2016_showstopper_yellow_color"	
+		"$colortint_base"		"{ 155 107 59 }"
+		"$color2"		"{ 155 107 59 }"
+	}
+}

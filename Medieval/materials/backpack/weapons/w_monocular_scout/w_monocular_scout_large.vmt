@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/weapons/w_monocular_scout/w_monocular_scout_large"
+	"$translucent" 1
+	$vertexcolor 1
+}

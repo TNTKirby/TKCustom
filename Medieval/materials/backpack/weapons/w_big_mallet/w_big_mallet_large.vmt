@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/weapons/w_big_mallet/w_big_mallet_large"
+	"$translucent" 1
+	$vertexcolor 1
+}

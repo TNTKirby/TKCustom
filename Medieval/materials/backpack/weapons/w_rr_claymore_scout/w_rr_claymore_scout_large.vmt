@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/weapons/w_rr_claymore_scout/w_rr_claymore_scout_large"
+	"$translucent" 1
+	"$vertexcolor" 1
+}

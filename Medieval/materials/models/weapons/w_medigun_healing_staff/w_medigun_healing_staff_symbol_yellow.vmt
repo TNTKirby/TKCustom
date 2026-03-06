@@ -1,0 +1,10 @@
+"Patch"
+{
+	include "materials\models\weapons\w_medigun_healing_staff\w_medigun_healing_staff_symbol_red.vmt"
+
+	insert
+	{
+	"$basetexture" "models/weapons/w_medigun_healing_staff/w_medigun_healing_staff_symbol_yellow"
+	"$envmaptint" "[1.5 1.25 .25]"
+	}
+}

@@ -1,0 +1,11 @@
+"Patch"
+{
+	include "materials/models/weapons/w_halberd_heavy/halberd.vmt"
+	
+	insert
+	{
+		"$basetexture" "models/weapons/w_halberd_heavy/halberdgrn"
+	}
+}
+
+

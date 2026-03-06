@@ -1,0 +1,43 @@
+
+"VertexlitGeneric"
+{
+	"$basetexture" "models/weapons/w_ribs_medieval/ribfulltex"
+
+
+$BASEMAPALPHAPHONGMASK 1
+
+	"$phong" "1"
+	"$phongexponent" "25"
+	"$phongboost" "0.2"	
+	"$lightwarptexture" "models\lightwarps\weapon_lightwarp"
+	"$phongfresnelranges"	"[.25 .5 1]"
+
+	"$rimlight" "1"
+	"$rimlightexponent" "0.2"	
+	"$rimlightboost" ".08"
+
+	"$glowcolor" "1"
+
+	// Cloaking
+	"$cloakPassEnabled" "1"
+	"Proxies"
+	{
+		"invis"
+		{
+		}
+		"ModelGlowColor"
+		{
+			"resultVar" "$glowcolor"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$glowcolor"
+			"resultVar" "$selfillumtint"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$glowcolor"
+			"resultVar" "$color2"
+		}
+	}
+}

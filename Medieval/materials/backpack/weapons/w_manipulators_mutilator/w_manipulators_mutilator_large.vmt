@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/weapons/w_manipulators_mutilator/w_manipulators_mutilator_large"
+	"$translucent" 1
+	"$vertexcolor" 1
+}

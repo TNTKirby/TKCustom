@@ -1,0 +1,9 @@
+"Patch"
+{
+	include "materials/models/weapons/w_bagpipes/bagpipes.vmt"
+	
+	insert
+	{
+		"$basetexture"	"models\weapons\w_bagpipes\bagpipes_blue"
+	}
+}

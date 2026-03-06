@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/weapons/w_short_fuse_grenade_demo/w_short_fuse_grenade_demo_large"
+	"$translucent" 1
+	"$vertexcolor" 1
+}

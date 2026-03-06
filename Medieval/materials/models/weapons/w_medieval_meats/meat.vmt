@@ -1,0 +1,46 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\weapons/w_medieval_meats\meat"
+	"$bumpmap" "models\effects\flat_normal"
+
+	"$phong" "1"
+	"$phongexponent" "100"
+	"$phongboost" ".5"	
+	"$lightwarptexture" "models\player\pyro\pyro_lightwarp"
+//	"$lightwarptexture" "models/lightwarps_bucket/weapon_lightwarp"
+	"$phongfresnelranges"	"[2 0 2]"
+	"$basemapalphaphongmask" "1"
+
+	// Rim lighting parameters
+	"$rimlight" "1"												// To enable rim lighting (requires phong)
+	"$rimlightexponent" "2"										// Exponent for phong component of rim lighting	
+	"$rimlightboost" "1"	
+
+
+	"$glowcolor" "1"
+
+	// Cloaking
+	"$cloakPassEnabled" "1"
+	"Proxies"
+	{
+		"invis"
+		{
+		}
+		"ModelGlowColor"
+		{
+			"resultVar" "$glowcolor"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$glowcolor"
+			"resultVar" "$selfillumtint"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$glowcolor"
+			"resultVar" "$color2"
+		}
+	}
+}
+
+

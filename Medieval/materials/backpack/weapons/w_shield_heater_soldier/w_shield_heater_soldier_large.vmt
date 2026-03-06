@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/weapons/w_shield_heater_soldier/w_shield_heater_soldier_large"
+	"$translucent" 1
+	"$vertexcolor" 1
+}

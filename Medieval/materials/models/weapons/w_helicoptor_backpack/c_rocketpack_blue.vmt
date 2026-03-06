@@ -1,0 +1,9 @@
+"Patch"
+{
+	include "materials/models/weapons/w_helicoptor_backpack/c_rocketpack_red.vmt"
+	
+	insert
+	{
+	"$baseTexture" "models/weapons/w_helicoptor_backpack/c_rocketpack_blue"
+	}
+}

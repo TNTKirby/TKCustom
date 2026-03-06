@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/weapons/w_hookshot_engineer/w_hookshot_engineer_large"
+	"$translucent" 1
+	$vertexcolor 1		
+	"$ignorez" 1
+}

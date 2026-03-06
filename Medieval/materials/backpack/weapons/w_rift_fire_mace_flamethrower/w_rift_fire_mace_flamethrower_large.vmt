@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/weapons/w_rift_fire_mace_flamethrower/w_rift_fire_mace_flamethrower_large"
+	"$translucent" 1
+	$vertexcolor 1
+}

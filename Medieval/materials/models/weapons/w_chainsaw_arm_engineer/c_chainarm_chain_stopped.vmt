@@ -1,0 +1,35 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models/weapons/w_chainsaw_arm_engineer/c_chainarm"
+	"$translucent" 	1
+	"$glowcolor"	"1"
+	"$cloakPassEnabled" "1"
+	"$model"		"1"
+
+	"$rimlight" "1"						
+	"$rimlightexponent" "50"				
+	"$rimlightboost" ".5"
+
+	"$lightwarptexture" "models\weapons\c_items\c_ambassador_lightwarp"
+	"Proxies"
+	{
+		"invis"
+		{
+		}
+		"ModelGlowColor"
+		{
+			"resultVar" "$glowcolor"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$glowcolor"
+			"resultVar" "$selfillumtint"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$glowcolor"
+			"resultVar" "$color2"
+		}
+	}
+
+}

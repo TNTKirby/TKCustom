@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/weapons/w_medieval_meats/w_medieval_meats_small_large"
+	"$translucent" 1
+	"$vertexcolor" 1
+}

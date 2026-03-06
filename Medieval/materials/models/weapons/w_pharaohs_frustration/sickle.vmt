@@ -1,0 +1,46 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models\weapons\w_pharaohs_frustration\sickle"
+	$bumpmap "models\weapons\w_pharaohs_frustration\sickle_bump"
+
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.35 .35 .35]"
+
+	"$phong"	"1"
+	"$phongexponent" "25"
+	"$phongboost" "0.3"	
+	"$lightwarptexture" "models/weapons/c_items/c_ambassador_lightwarp"
+//	"$lightwarptexture" "models\lightwarps\weapon_lightwarp"
+	"$phongfresnelranges"	"[1 2 10]"
+	"$basemapalphaphongmask" "1"
+
+	"$rimlight" "1"
+	"$rimlightexponent" "4"	
+	"$rimlightboost" "3"
+
+	"$glowcolor" "1"
+
+	// Cloaking
+	"$cloakPassEnabled" "1"
+	"Proxies"
+	{
+		"invis"
+		{
+		}
+		"ModelGlowColor"
+		{
+			"resultVar" "$glowcolor"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$glowcolor"
+			"resultVar" "$selfillumtint"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$glowcolor"
+			"resultVar" "$color2"
+		}
+	}
+}
+

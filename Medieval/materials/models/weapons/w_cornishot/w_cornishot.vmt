@@ -1,0 +1,44 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\weapons\w_cornishot\w_cornishot"
+                "$bumpmap" "models\weapons\w_cornishot\w_cornishot_normal"
+
+	"$phong" "1"
+	"$phongexponent" "10"
+	"$phongboost" "0.25"
+	"$lightwarptexture" "models\lightwarps\hand_lightwarp"
+//	"$lightwarptexture" "models\lightwarps_bucket\hand_lightwarp"
+
+	"$phongfresnelranges"	"[1 .5 1]"
+                "$bumpmapalphaphongmask" "1"
+
+	"$rimlight" "1"
+	"$rimlightexponent" "1"	
+	"$rimlightboost" "5"
+
+	"$glowcolor" "1"
+
+	// Cloaking
+	"$cloakPassEnabled" "1"
+
+	"Proxies"
+	{
+		"invis"
+		{
+		}
+		"ModelGlowColor"
+		{
+			"resultVar" "$glowcolor"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$glowcolor"
+			"resultVar" "$selfillumtint"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$glowcolor"
+			"resultVar" "$color2"
+		}
+	}
+}

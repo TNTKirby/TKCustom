@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/weapons/w_nordic_axe/w_nordic_axe_large"
+	"$translucent" 1
+	"$vertexcolor" 1
+}

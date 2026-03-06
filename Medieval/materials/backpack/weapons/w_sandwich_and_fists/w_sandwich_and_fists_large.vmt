@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/weapons/w_sandwich_and_fists/w_sandwich_and_fists_large"
+	"$translucent" 1
+	$vertexcolor 1
+}

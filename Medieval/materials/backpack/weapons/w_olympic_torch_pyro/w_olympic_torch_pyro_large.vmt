@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/weapons/w_olympic_torch_pyro/w_olympic_torch_pyro_large"
+	"$translucent" 1
+	$vertexcolor 1
+}

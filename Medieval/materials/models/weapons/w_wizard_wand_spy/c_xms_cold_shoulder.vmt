@@ -1,0 +1,45 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/weapons/w_wizard_wand_spy/brokenwood"
+	"$bumpmap" "models/weapons/w_wizard_wand_spy/c_xms_cold_shoulder_normal"
+
+	"$surfaceprop" "wood"
+
+	//phong properties
+	"$phong"	"1"
+	"$phongboost"	"0.1"
+	"$phongexponent"	"0.5"
+	"$phongfresnelranges"	"[.5 .1 .2]"
+	"$lightwarptexture" "models/lightwarps/weapon_lightwarp"
+//	"$lightwarptexture" "models/lightwarps_bucket/weapon_lightwarp"
+	
+	"$rimlight" "1"
+	"$rimlightexponent" "3"	
+	"$rimlightboost" "1"
+
+	"$glowcolor" "1"
+
+	// Cloaking
+	"$cloakPassEnabled" "1"
+
+	"Proxies"
+	{
+		"invis"
+		{
+		}
+		"ModelGlowColor"
+		{
+			"resultVar" "$glowcolor"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$glowcolor"
+			"resultVar" "$selfillumtint"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$glowcolor"
+			"resultVar" "$color2"
+		}
+	}
+}

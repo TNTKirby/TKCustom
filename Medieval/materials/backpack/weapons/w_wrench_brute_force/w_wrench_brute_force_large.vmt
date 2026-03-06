@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/weapons/w_wrench_brute_force/w_wrench_brute_force_large"
+	"$translucent" 1
+	"$vertexcolor" 1
+}

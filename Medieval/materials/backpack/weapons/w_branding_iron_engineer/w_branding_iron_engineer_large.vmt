@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/weapons/w_branding_iron_engineer/w_branding_iron_engineer_large"
+	"$translucent" 1
+	$vertexcolor 1
+}

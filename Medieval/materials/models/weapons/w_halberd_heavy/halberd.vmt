@@ -1,0 +1,42 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/weapons/w_halberd_heavy/halberd"
+	"$basemapalphaphongmask" "1"
+	"$phong" "1"
+	"$phongexponent" "10"
+	"$phongboost" "2"	
+	"$phongfresnelranges"	"[.25 .5 1]"
+	
+//	"$lightwarptexture" "models/lightwarps_bucket/weapon_lightwarp"
+	"$lightwarptexture" "models\player\pyro\pyro_lightwarp"
+	"$rimlight" "1"						
+	"$rimlightexponent" "20"				
+	"$rimlightboost" "3"
+
+	"$glowcolor" "1"
+
+	// Cloaking
+	"$cloakPassEnabled" "1"
+	"Proxies"
+	{
+		"invis"
+		{
+		}
+		"ModelGlowColor"
+		{
+			"resultVar" "$glowcolor"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$glowcolor"
+			"resultVar" "$selfillumtint"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$glowcolor"
+			"resultVar" "$color2"
+		}
+	}
+}
+
+

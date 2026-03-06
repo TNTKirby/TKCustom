@@ -1,0 +1,10 @@
+"Patch"
+{
+	include "materials/models/player/hats/scout_jester/dec2014_marauders_mask/dec2014_marauders_mask.vmt"
+	
+	insert
+	{
+	"$colortint_base"		"{ 60 157 70 }"
+	"$color2"		"{ 60 157 70 }"
+	}
+}

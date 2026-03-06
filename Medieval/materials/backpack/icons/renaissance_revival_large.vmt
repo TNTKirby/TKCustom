@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/icons/renaissance_revival_large"
+	"$translucent"		"1"
+	$vertexcolor 1
+}

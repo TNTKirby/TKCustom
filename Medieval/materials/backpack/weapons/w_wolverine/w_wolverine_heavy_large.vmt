@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/weapons/w_wolverine/w_wolverine_heavy_large"
+	"$translucent" 1
+	$vertexcolor 1
+}

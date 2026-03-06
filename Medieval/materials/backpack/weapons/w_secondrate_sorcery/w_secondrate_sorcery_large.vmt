@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/weapons/w_secondrate_sorcery/w_secondrate_sorcery_large"
+	"$translucent" 1
+	$vertexcolor 1
+}

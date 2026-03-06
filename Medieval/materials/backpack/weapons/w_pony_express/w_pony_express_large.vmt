@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/weapons/w_pony_express/w_pony_express_large"
+	"$translucent" 1
+	$vertexcolor 1
+}

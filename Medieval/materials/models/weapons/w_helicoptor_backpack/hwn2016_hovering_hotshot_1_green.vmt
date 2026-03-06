@@ -1,0 +1,10 @@
+"Patch"
+{
+	include "materials/models/weapons/w_helicoptor_backpack/hwn2016_hovering_hotshot_1.vmt"
+
+	insert
+	{
+	"$colortint_base"		"{ 0 255 0 }"
+	"$color2"			"{ 0 255 0 }"
+	}
+}

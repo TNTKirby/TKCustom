@@ -1,0 +1,42 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models/weapons/w_rr_hamshank/c_ham"
+	"$basemapalphaphongmask" 1
+	"$lightwarptexture" "models/lightwarps/weapon_lightwarp"
+	
+	//phong properties
+	"$phong"	"1"
+	"$phongboost"	"1"
+	"$phongexponent"	"80"
+	"$phongfresnelranges"	"[1 2 2.5]"
+
+	"$rimlight"	"1"
+	"$rimlightexponent"	"1"
+	"$basemapalphaphonemask" "1"
+
+	"$glowcolor" "1"
+
+	// Cloaking
+	"$cloakPassEnabled" "1"
+
+	"Proxies"
+	{
+		"invis"
+		{
+		}
+		"ModelGlowColor"
+		{
+			"resultVar" "$glowcolor"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$glowcolor"
+			"resultVar" "$selfillumtint"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$glowcolor"
+			"resultVar" "$color2"
+		}
+	}
+}

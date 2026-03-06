@@ -1,0 +1,9 @@
+"Patch"
+{
+	include "materials/models/weapons/w_rr_rapier/rapier.vmt"
+	
+	insert
+	{
+	"$baseTexture" "models\weapons\w_rr_rapier\rapier_yellow"
+	}
+}

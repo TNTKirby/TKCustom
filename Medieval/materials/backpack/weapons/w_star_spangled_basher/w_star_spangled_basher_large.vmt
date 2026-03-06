@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/weapons/w_star_spangled_basher/w_star_spangled_basher_large"
+	"$translucent" 1
+	$vertexcolor 1
+}

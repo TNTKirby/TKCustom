@@ -1,0 +1,9 @@
+"Patch"
+{
+	include "materials/models/weapons/w_chainsaw_arm_engineer/c_chainarm.vmt"
+	
+	insert
+	{
+	"$basetexture"	"models/weapons/w_chainsaw_arm_engineer/c_chainarm_green"
+	}
+}

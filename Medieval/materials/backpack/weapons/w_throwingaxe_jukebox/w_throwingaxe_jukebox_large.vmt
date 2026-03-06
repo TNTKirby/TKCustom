@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack\weapons\w_throwingaxe_jukebox\w_throwingaxe_jukebox_large"
+	$translucent 1
+}

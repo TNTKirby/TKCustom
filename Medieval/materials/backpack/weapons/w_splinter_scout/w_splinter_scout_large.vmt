@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/weapons/w_splinter_scout/w_splinter_scout_large"
+	"$translucent" 1
+	$vertexcolor 1
+}

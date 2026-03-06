@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/weapons/w_ornery_orders/w_ornery_orders_large"
+	"$translucent" 1
+	$vertexcolor 1
+}

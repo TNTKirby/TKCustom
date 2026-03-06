@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/weapons/w_glock_demoman/w_glock_demoman_large"
+	"$translucent" 1
+	$vertexcolor 1
+}

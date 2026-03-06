@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/weapons/w_toolbox_medieval/w_toolbox_medieval_large"
+	"$translucent" 1
+	$vertexcolor 1
+}

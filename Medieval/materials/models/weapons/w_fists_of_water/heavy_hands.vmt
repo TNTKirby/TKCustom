@@ -1,0 +1,42 @@
+"Refract"
+{
+	$model	"1"
+
+	"$refracttexture" "_rt_WaterRefraction"
+	"$refractamount" ".12"
+	"$refracttint" "{148 197 195}"
+
+	"$bluramount"	"1"
+
+	"$scale" "[0.8 0.8]"
+
+	"$normalmap" "water/tfwater001_normal"
+	"$dudvmap" "water/tfwater001_normal"
+
+//	"$surfaceprop" "water"
+
+	"$bumpframe" "0"
+
+	 "$temp" "[0 0]"
+	 "$curr" 0.0
+	 "$curr2" 0.0
+
+//	"$scroll1" "[0.3 -0.3]"
+//	"$scroll2" "[0 -0.3]"
+
+	"Proxies"
+	{
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$normalmap"
+			"animatedtextureframenumvar" "$bumpframe"
+			"animatedtextureframerate" 30.00
+		}
+		"TextureScroll"
+		{
+			"texturescrollvar" "$bumptransform"
+			"texturescrollrate" 1
+			"texturescrollangle" -90.00
+		}
+	}
+}

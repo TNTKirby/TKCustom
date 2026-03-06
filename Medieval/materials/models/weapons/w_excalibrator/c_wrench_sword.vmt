@@ -1,0 +1,45 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/weapons/w_excalibrator/c_wrench_sword"
+	"$phongexponenttexture"  "models/weapons/w_excalibrator/c_wrench_sword_exp"
+	"$phongalbedotint" "1"
+	"$basemapalphaphongmask" "1"
+
+	"$phong" "1"
+	"$phongexponent" "5"
+	"$phongboost" "65"	
+	"$lightwarptexture" "models/weapons/c_items/c_ambassador_lightwarp"
+//	"$lightwarptexture" "models\lightwarps_bucket\weapon_lightwarp"
+	"$phongfresnelranges"	"[.25 .5 1]"
+	"$rimlight" "1"
+	"$rimlightexponent" "7"	
+	"$rimlightboost" "15.25"
+
+	"$glowcolor" "1"
+
+	// Cloaking
+	"$cloakPassEnabled" "1"
+
+	"Proxies"
+	{
+		"invis"
+		{
+		}
+		"ModelGlowColor"
+		{
+			"resultVar" "$glowcolor"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$glowcolor"
+			"resultVar" "$selfillumtint"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$glowcolor"
+			"resultVar" "$color2"
+		}
+	}
+}
+
+

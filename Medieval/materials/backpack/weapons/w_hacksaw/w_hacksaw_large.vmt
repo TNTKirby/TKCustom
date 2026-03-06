@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/weapons/w_hacksaw/w_hacksaw_large"
+	"$translucent" 1
+	"$vertexcolor" 1
+}

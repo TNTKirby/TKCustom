@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/weapons/w_pharaohs_frustration/w_pharaohs_frustration_large"
+	"$translucent" 1
+	$vertexcolor 1
+}

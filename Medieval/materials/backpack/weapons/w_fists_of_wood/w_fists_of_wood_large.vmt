@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/weapons/w_fists_of_wood/w_fists_of_wood_large"
+	"$translucent" 1
+	$vertexcolor 1
+}

@@ -1,0 +1,9 @@
+"Patch"
+{
+	include "materials/models/weapons/w_russian_resolve_heavy/metalwall001a.vmt"
+	
+	insert
+	{
+ 	"$basetexture" "redville/metalwall001b"
+	}
+}

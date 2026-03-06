@@ -1,0 +1,39 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models/weapons/w_guitar/strings"
+	"$surfaceprop"	"metal"
+	"$translucent"	"1"
+	"$alphatest" "1"
+	"$envmap"	"env_cubemap"
+	"$normalmapalphaenvmapmask" 1
+
+	// Variables for the cloak effect
+	"$cloakPassEnabled"     "1"
+
+	// Variable for crit glow
+	"$glowcolor" "1"
+
+	// The order of the proxies is important!
+	"Proxies"
+	{
+	// Proxies for the cloak effect
+		"invis"
+		{
+		}
+	// Proxies for crit glow
+		"ModelGlowColor"
+		{
+			"resultVar" "$glowcolor"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$glowcolor"
+			"resultVar" "$selfillumtint"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$glowcolor"
+			"resultVar" "$color2"
+		}
+	}
+}

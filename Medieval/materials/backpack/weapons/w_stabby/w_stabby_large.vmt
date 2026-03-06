@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/weapons/w_stabby/w_stabby_large"
+	"$translucent" 1
+	$vertexcolor 1
+}

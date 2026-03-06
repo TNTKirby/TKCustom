@@ -1,0 +1,56 @@
+"VertexLitGeneric"
+{
+	"$basetexture"		"models/weapons/w_mystic_mushroom/hwn2016_toadstool_topper_color"
+	"$bumpmap"		"models/weapons/w_mystic_mushroom/hwn2016_toadstool_topper_normal"
+	"$lightwarptexture"		"models/lightwarps/weapon_lightwarp"
+	"$phong"		"1"
+	"$phongexponent"		"10.000000"
+	"$phongboost"		"0.100000"
+	"$phongfresnelranges"		"[.25 .5 1]"
+	"$rimlight"		"1"
+	"$rimlightexponent"		"2.000000"
+	"$rimlightboost"		"1.500000"
+	"$blendtintbybasealpha"		"1"
+	"$blendtintcoloroverbase"		"0"
+	"$colortint_base"		"{ 255 255 255 }"
+	"$color2"		"{ 255 255 255 }"
+	"$colortint_tmp"		"[0 0 0]"
+//	"$bumpmapalphaphongmask"		"1"
+
+	"$detail"		"effects/tiledfire/fireLayeredSlowTiled512"
+	"$detailscale"		"5"
+	"$detailblendfactor"		"0"
+	"$detailblendmode"		"6"
+
+	// Cloaking
+	"$cloakPassEnabled" "1"
+
+	"proxies"
+	{
+		"invis"
+		{
+		}
+
+		"Sine"
+		{
+			"sineperiod" "1.13"
+			"sinemin" ".2"
+			"sinemax" "3"
+			"resultVar" "$color2[0]"
+		}
+		"Sine"
+		{
+			"sineperiod" "1.7"
+			"sinemin" ".2"
+			"sinemax" "3"
+			"resultVar" "$color2[1]"
+		}
+		"Sine"
+		{
+			"sineperiod" "1.4"
+			"sinemin" ".2"
+			"sinemax" "3"
+			"resultVar" "$color2[2]"
+		}
+	}
+}

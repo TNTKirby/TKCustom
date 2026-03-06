@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/weapons/w_drunk_grail/w_drunk_grail_large"
+	"$translucent" 1
+	"$vertexcolor" 1
+}

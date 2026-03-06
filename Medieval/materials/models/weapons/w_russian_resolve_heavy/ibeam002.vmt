@@ -1,0 +1,43 @@
+"vertexlitgeneric" 
+{
+	"$basetexture" "metal/ibeam002"
+ 	"$bumpmap" "metal/ibeam002_normal"
+	"$surfaceprop" "metal"
+
+	"$phong" "1"
+	"$phongexponent" "10"
+	"$phongboost" "5"	
+
+//	"$lightwarptexture" "models\lightwarps_bucket\weapon_lightwarp"
+	"$lightwarptexture" "models\weapons\c_items\c_ambassador_lightwarp"
+
+	"$rimlight" "1"						
+	"$rimlightexponent" "20"				
+	"$rimlightboost" "10"
+
+	"$glowcolor" "1"
+
+	// Cloaking
+	"$cloakPassEnabled" "1"
+
+	"Proxies"
+	{
+		"invis"
+		{
+		}
+		"ModelGlowColor"
+		{
+			"resultVar" "$glowcolor"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$glowcolor"
+			"resultVar" "$selfillumtint"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$glowcolor"
+			"resultVar" "$color2"
+		}
+	}
+}

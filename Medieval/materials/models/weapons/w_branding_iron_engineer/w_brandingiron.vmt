@@ -1,0 +1,48 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models/weapons/w_branding_iron_engineer/w_brandingiron"
+
+	"$selfillum" "1"
+	"$selfillummask" "models/weapons/w_branding_iron_engineer/w_brandingiron_glow"
+	"$basemapalphaphongmask" 1
+	"$lightwarptexture" "models/lightwarps/weapon_lightwarp"
+	
+	//phong properties
+	"$phong"	"1"
+	"$phongboost"	".1"
+	"$phongexponent"	"80"
+	"$phongfresnelranges"	"[2 2 2]"
+	"$rimlight"	"1"
+	"$rimlightexponent"	"1"
+
+	// Cloaking
+	"$cloakPassEnabled" "1"
+
+	// Critboost
+	"$glowcolor" "1"
+	"$selfillumtint"	"[ 3 2 1 ]"
+
+
+	"Proxies"
+	{
+
+		"invis"
+		{
+		}
+		"ModelGlowColor"
+		{
+			"resultVar" "$glowcolor"
+		}
+// Disabling this for brand's hot part, so it always glows
+	//	"Equals"
+	//	{
+	//		"srcVar1"  "$glowcolor"
+	//		"resultVar" "$selfillumtint"
+	//	}
+		"Equals"
+		{
+			"srcVar1"  "$glowcolor"
+			"resultVar" "$color2"
+		}
+	}
+}

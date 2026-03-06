@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/weapons/w_helicoptor_backpack/w_helicoptor_backpack_large"
+	"$translucent"		"1"
+}

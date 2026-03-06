@@ -1,0 +1,17 @@
+"Patch"
+{
+	include "materials/models/weapons/w_chainsaw_arm_engineer/c_chainarm_chain_stopped.vmt"
+	
+	insert
+	{
+		"Proxies"
+		{
+      			"TextureScroll"
+       			{
+      				"textureScrollVar" "$basetexturetransform"
+       				"textureScrollRate" 0.55
+       				"textureScrollAngle" -90
+     			  }
+		}
+	}
+}

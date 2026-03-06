@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/weapons/w_chainsaw_arm_engineer/w_chainsaw_arm_engineer_large"
+	"$translucent" 1
+	$vertexcolor 1
+}

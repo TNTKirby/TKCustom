@@ -1,0 +1,103 @@
+"VertexlitGeneric"
+{
+	///////////////////////////////////////////////////////////////////////////////
+	//					texture.
+	///////////////////////////////////////////////////////////////////////////////
+	$basetexture "models\weapons\w_puppet_cross_medic\c_medic_puppet_cross_green.vtf"
+	$model 1
+
+	//$alpha 1.0
+	//$translucent 1
+
+
+	///////////////////////////////////////////////////////////////////////////////
+	//					phong.
+	///////////////////////////////////////////////////////////////////////////////
+	$phong 1
+	$phongboost 1.0
+	$phongexponent 25
+	$phongfresnelranges "[0.25 0.75 1]"
+	$phongtint "[0.75 0.75 0.3]"
+
+	$rimlight 1
+	$rimlightexponent 15
+	$rimlightboost 1.0
+
+	//$lightwarptexture "models/player/pyro/pyro_lightwarp"		//player light warp
+	$lightwarptexture "models\lightwarps\weapon_lightwarp"		//weapon light warp
+	//$halflambert 1
+
+
+	///////////////////////////////////////////////////////////////////////////////
+	//					paint section.	
+	///////////////////////////////////////////////////////////////////////////////
+	//$BlendTintByBaseAlpha 1
+	//$BlendTintColorOverBase 1.0
+
+	$colortint_base "[1 1 1]"
+	$colortint_tmp "[0 0 0]"
+	//$color2 "{160 120 90}"
+
+	$BaseMapAlphaPhongMask 1
+
+
+	///////////////////////////////////////////////////////////////////////////////
+	//					special effects.
+	///////////////////////////////////////////////////////////////////////////////
+	$yellow 0
+	$glowcolor 1
+
+	$cloakPassEnabled 1
+	$sheenPassEnabled 1
+
+	$sheenmap		"cubemaps\cubemap_sheen001"
+	$sheenmapmask		"Effects\AnimatedSheen\animatedsheen0"
+	$sheenmaptint		"[ 1 1 1 ]"
+	$sheenmapmaskframe 	0
+	$sheenindex 		0
+
+
+	///////////////////////////////////////////////////////////////////////////////
+	//					Proxies.
+	///////////////////////////////////////////////////////////////////////////////
+	"Proxies"
+	{
+		"AnimatedWeaponSheen"
+		{
+			"animatedtexturevar" 		"$sheenmapmask"
+			"animatedtextureframenumvar" 	"$sheenmapmaskframe"
+			"animatedtextureframerate" 		"40"
+		}
+		"invis"
+		{
+		}
+		"ModelGlowColor"
+		{
+			"resultVar" "$glowcolor"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$glowcolor"
+			"resultVar" "$selfillumtint"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$glowcolor"
+			"resultVar" "$color2"
+		}
+		"YellowLevel"
+		{
+			"resultVar" "$yellow"
+		}
+		"Multiply"
+		{
+			"srcVar1" "$color2"
+			"srcVar2" "$yellow"
+			"resultVar" "$color2"
+		}
+		//View Model Cloaking
+		//"vm_invis"
+		//{
+		//}
+	}
+}

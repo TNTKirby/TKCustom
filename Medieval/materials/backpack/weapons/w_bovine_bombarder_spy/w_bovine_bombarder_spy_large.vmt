@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/weapons/w_bovine_bombarder_spy/w_bovine_bombarder_spy_large"
+	"$translucent" 1
+	$vertexcolor 1
+}

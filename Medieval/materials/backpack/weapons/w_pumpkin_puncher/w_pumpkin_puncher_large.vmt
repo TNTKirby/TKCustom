@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/weapons/w_pumpkin_puncher/w_pumpkin_puncher_large"
+	"$translucent" 1
+	$vertexcolor 1
+}

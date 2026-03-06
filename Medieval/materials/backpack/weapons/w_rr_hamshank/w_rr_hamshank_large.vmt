@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/weapons/w_rr_hamshank/w_rr_hamshank_large"
+	"$translucent" 1
+	$vertexcolor 1
+}

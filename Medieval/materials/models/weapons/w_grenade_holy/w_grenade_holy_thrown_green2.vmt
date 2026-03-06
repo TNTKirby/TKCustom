@@ -1,0 +1,44 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models\weapons\w_grenade_holy/w_grenade_holy_green2"
+	"$selfillum" "1"
+	"$bumpmap" "models\player\shared\shared_normal"
+	"$phong" "1"
+	"$phongexponent" "35"
+	"$phongboost" "5"	
+	"$lightwarptexture" "models\lightwarps\weapon_lightwarp"
+	"$phongfresnelranges" "[0.25 0.5 1]"
+
+
+	"$rimlight" "1"
+	"$rimlightexponent" "2.5"
+	"$rimlightboost" "2"  
+
+	"$glowcolor" "1"
+
+	"Proxies"
+	{	
+		"ModelGlowColor"
+		{
+			"resultVar" "$glowcolor"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$glowcolor"
+			"resultVar" "$selfillumtint"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$glowcolor"
+			"resultVar" "$color2"
+		}
+		"Sine"
+		{
+			"resultVar" $selfillumtint
+			"sinemin" .1
+			"sinemax" 5.00
+			"sineperiod" 0.30
+		}
+	}
+}
+
