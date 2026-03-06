@@ -1,4 +1,4 @@
-This is extra custom assets on my server. To install, go to "code", download zip, and extract folders in here into your custom folder.
+This is extra custom assets on my server. To install, go to "Code", Download zip, and extract folders in here into your custom folder.
 
 "Medieval" | Custom "Medieval Renaissance" Weapons
 "Custom Player Models" | Custom Player Models, used for a VScript Command.
